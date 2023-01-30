@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #1C1C1C;
+    font-family: 'arial';
+    height: 100vh;
+}
+
+h1 {
+font-weight: 800;
+font-size: 40px;
+letter-spacing: -0.025em;
+color: #FFFFFF;
+margin: 0;
+}
+
+.green {
+    line-height: 0px;
+    color:  #4ADF86;
+}
+
+h2 {
+font-weight: 400;
+font-size: 20px;
+color: #D5D4D8
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+}
+.flex-container {
+    display: flex;
+align-items: center;
+gap: 10px;
+width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #10B981;
+    color: #FFFFFF;
+    padding: 9px 17px 9px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 40px 0px;
+    border: 0;
+}
+
+hr {
+    display: block;
+    background: #2F3E53;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+    
+    border: 1px solid #2F3E53;
+    margin-bottom: 50px;
+}
+
+.passText {
+    width: 50%;
+    color: #55F991; 
+    background-color: #273549;
+    padding: 20px 40px;
+    border-radius: 15px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
